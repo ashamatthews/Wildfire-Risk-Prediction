@@ -300,4 +300,22 @@ They can be regenerated locally by running the preprocessing pipeline notebooks.
    Use `plot_tile_analysis` for per-tile feature + fire visualization.
    EDA plots and correlation heatmaps are automatically generated in `run_feature_eda`.
    
-   
+---
+
+## Model Comparison
+
+Three models were trained to predict wildfire events using MODIS environmental features.
+
+| Model  | Recall | Notes |
+|------|-----------|--------|
+| Logistic Regression | 0.02 | Baseline linear model |
+| Random Forest | 0.84 | Captures nonlinear relationships |
+| Gradient Boosted Trees | 0.90 | Best overall performance |
+
+### Key Observations
+
+- **Logistic Regression** served as a baseline model but struggled to capture nonlinear patterns in wildfire risk.
+- **Random Forest** improved performance by modeling feature interactions.
+- **Gradient Boosted Trees** produced the best balance between precision and recall.
+
+Because wildfire detection prioritizes **identifying fires rather than minimizing false alarms**, models were tuned to favor **higher recall**.
