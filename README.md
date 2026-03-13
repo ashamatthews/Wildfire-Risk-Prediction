@@ -107,7 +107,7 @@ Wildfire-Risk-Prediction
     
 ---
 
-## Utilities (`utils.ipynb`)
+### Utilities (`utils.ipynb`)
 
 - **Purpose:** Align and combine MODIS datasets, create feature arrays, project latitude/longitude to MODIS tiles, and run exploratory data analysis (EDA).  
 
@@ -120,7 +120,7 @@ Wildfire-Risk-Prediction
 
 ---
 
-## MODIS-FIRMS Integration Pipeline (`modis_firms_pipeline.ipynb`)
+### MODIS-FIRMS Integration Pipeline (`modis_firms_pipeline.ipynb`)
 
 - **Purpose:** Combine MODIS NDVI, EVI, LST with FIRMS fire points for a given region and time window.  
 - **Steps:**
@@ -187,7 +187,7 @@ Due to file size limitations, some datasets are **not included in the repository
 
 ---
 
-## Raw Data
+### Raw Data
 
 **FIRMS Fire Data**
 
@@ -251,7 +251,7 @@ Both are provided at 250 m spatial resolution and 16-day temporal resolution.
 
 ---
 
-## Processed Data
+### Processed Data
 
 Processed datasets are stored in: `data/processed/`
 
