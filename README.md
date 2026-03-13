@@ -219,9 +219,8 @@ Each tile contains multiple files across different dates. Only the .hdf files ar
 
 These files contain:
 
-Daytime Land Surface Temperature (LST_Day)
-
-Nighttime Land Surface Temperature (LST_Night)
+- Daytime Land Surface Temperature (LST_Day)
+- Nighttime Land Surface Temperature (LST_Night)
 
 Both are provided as 8-day composites at 1 km spatial resolution.
 
@@ -243,9 +242,8 @@ The dataset includes multiple files across different dates. Only the .hdf files 
 
 These files contain:
 
-NDVI (Normalized Difference Vegetation Index)
-
-EVI (Enhanced Vegetation Index)
+- NDVI (Normalized Difference Vegetation Index)
+- EVI (Enhanced Vegetation Index)
 
 Both are provided at 250 m spatial resolution and 16-day temporal resolution.
 
@@ -255,7 +253,7 @@ Both are provided at 250 m spatial resolution and 16-day temporal resolution.
 
 Processed datasets are stored in: `data/processed/`
 
-**modis_firms_dataset.npz**
+`modis_firms_dataset.npz`
 
 This file contains the combined dataset created by aligning MODIS features with FIRMS wildfire detections.
 
@@ -263,7 +261,7 @@ Features include: NDVI, EVI, LST_Day, LST_Night
 
 Labels: 0 = no fire, 1 = fire detected
 
-**modis_firms_train_val_test_dataset.npz**
+`modis_firms_train_val_test_dataset.npz`
 
 This dataset contains the training, validation, and test splits used for model development.
 
