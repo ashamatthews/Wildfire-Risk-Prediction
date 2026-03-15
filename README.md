@@ -316,6 +316,6 @@ Three models were trained to predict wildfire events using MODIS environmental f
 
 - **Logistic Regression** served as a baseline model but struggled to capture nonlinear patterns in wildfire risk.
 - **Random Forest** improved performance by modeling feature interactions.
-- **Gradient Boosted Trees** produced the best balance between precision and recall.
+- **Gradient Boosted Trees** produced the highest recall.
 
 Because wildfire detection prioritizes **identifying fires rather than minimizing false alarms**, models were tuned to favor **higher recall**.
